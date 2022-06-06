@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d14bd57f-3bd8-4955-b0c2-37f95a35ec5e" name="Changes" comment="">
+    <list default="true" id="d14bd57f-3bd8-4955-b0c2-37f95a35ec5e" name="Changes" comment="updated to apply the private modifier to set function of cpf property">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/Pessoa.kt" afterDir="false" />
     </list>
@@ -76,6 +76,21 @@
       <option name="presentableId" value="Default" />
       <updated>1654538442197</updated>
     </task>
+    <task id="LOCAL-00001" summary="updated to apply the private modifier to set function of cpf property">
+      <created>1654542745200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654542745200</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated to apply the private modifier to set function of cpf property">
+      <created>1654542797886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654542797886</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,5 +120,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated to apply the private modifier to set function of cpf property" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated to apply the private modifier to set function of cpf property" />
   </component>
 </project>
