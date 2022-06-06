@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d14bd57f-3bd8-4955-b0c2-37f95a35ec5e" name="Changes" comment="created bank class and test to it">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/ClienteTipo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/testes/TesteClienteTipoEnum.kt" afterDir="false" />
+    <list default="true" id="d14bd57f-3bd8-4955-b0c2-37f95a35ec5e" name="Changes" comment="update bank class">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/Analista.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/Gerente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/testes/ImprimeRelatorioFuncionario.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/testes/TesteFuncionarioAnalista.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/testes/TesteFuncionarioGerente.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/Funcionario.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +22,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Enum" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -36,26 +41,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/crash/heroicbank/src/main/kotlin/heroicbank/digitalinovation/heroicbank/testes",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Kotlin.TesteClienteTipoEnumKt">
-    <configuration name="BancoTesteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.testes.BancoTesteKt" />
-      <module name="consoleApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.PessoaKt" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\crash\heroicbank\src\main\kotlin\heroicbank\digitalinovation\heroicbank\testes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.TesteFuncionarioGerenteKt">
+    <configuration name="TesteBancoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.testes.TesteBancoKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,6 +67,27 @@
     </configuration>
     <configuration name="TesteClienteTipoEnumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.testes.TesteClienteTipoEnumKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteFuncionarioAnalistaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.testes.TesteFuncionarioAnalistaKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteFuncionarioGerenteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.testes.TesteFuncionarioGerenteKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestePessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.testes.TestePessoaKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,9 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TesteFuncionarioGerenteKt" />
+        <item itemvalue="Kotlin.TesteFuncionarioAnalistaKt" />
+        <item itemvalue="Kotlin.TestePessoaKt" />
         <item itemvalue="Kotlin.TesteClienteTipoEnumKt" />
-        <item itemvalue="Kotlin.BancoTesteKt" />
-        <item itemvalue="Kotlin.PessoaKt" />
+        <item itemvalue="Kotlin.TesteBancoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +158,28 @@
       <option name="project" value="LOCAL" />
       <updated>1654545927229</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created enum client type and test to it">
+      <created>1654547398386</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654547398386</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update to make person and employee abstract class">
+      <created>1654549603211</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654549603211</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update bank class">
+      <created>1654549633030</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654549633030</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +215,9 @@
     <MESSAGE value="updated to talk about class members" />
     <MESSAGE value="created account class" />
     <MESSAGE value="created bank class and test to it" />
-    <option name="LAST_COMMIT_MESSAGE" value="created bank class and test to it" />
+    <MESSAGE value="created enum client type and test to it" />
+    <MESSAGE value="update to make person and employee abstract class" />
+    <MESSAGE value="update bank class" />
+    <option name="LAST_COMMIT_MESSAGE" value="update bank class" />
   </component>
 </project>
