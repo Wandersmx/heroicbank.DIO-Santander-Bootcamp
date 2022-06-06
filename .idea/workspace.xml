@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d14bd57f-3bd8-4955-b0c2-37f95a35ec5e" name="Changes" comment="created account class">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/Banco.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/testes/BancoTeste.kt" afterDir="false" />
+    <list default="true" id="d14bd57f-3bd8-4955-b0c2-37f95a35ec5e" name="Changes" comment="created bank class and test to it">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/ClienteTipo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/heroicbank/digitalinovation/heroicbank/testes/TesteClienteTipoEnum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +19,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Enum" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -45,7 +46,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.BancoTesteKt">
+  <component name="RunManager" selected="Kotlin.TesteClienteTipoEnumKt">
     <configuration name="BancoTesteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.testes.BancoTesteKt" />
       <module name="consoleApp" />
@@ -55,6 +56,13 @@
     </configuration>
     <configuration name="PessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.PessoaKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteClienteTipoEnumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.testes.TesteClienteTipoEnumKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TesteClienteTipoEnumKt" />
         <item itemvalue="Kotlin.BancoTesteKt" />
         <item itemvalue="Kotlin.PessoaKt" />
       </list>
@@ -115,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654544573376</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created bank class and test to it">
+      <created>1654545927229</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654545927229</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +166,7 @@
     <MESSAGE value="updated to apply the private modifier to set function of cpf property" />
     <MESSAGE value="updated to talk about class members" />
     <MESSAGE value="created account class" />
-    <option name="LAST_COMMIT_MESSAGE" value="created account class" />
+    <MESSAGE value="created bank class and test to it" />
+    <option name="LAST_COMMIT_MESSAGE" value="created bank class and test to it" />
   </component>
 </project>
