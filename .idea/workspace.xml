@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb600ec-55a3-4015-9812-2ab3be1883ae" name="Changes" comment="Created collection operations">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/Funcionario.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/TesteList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/TesteSet.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9eb600ec-55a3-4015-9812-2ab3be1883ae" name="Changes" comment="updated test list, extract employee to separated file, delete file collection empty and created test set">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/TesteMap.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.TesteSetKt">
-    <configuration name="TesteArrayStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteArrayStringKt" />
-      <module name="consoleApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.TesteMapKt">
     <configuration name="TesteDoubleArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteDoubleArrayKt" />
       <module name="consoleApp" />
@@ -60,6 +50,13 @@
     </configuration>
     <configuration name="TesteListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteListKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteMapKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TesteMapKt" />
         <item itemvalue="Kotlin.TesteSetKt" />
         <item itemvalue="Kotlin.TesteListKt" />
         <item itemvalue="Kotlin.TesteOperacoesKt" />
         <item itemvalue="Kotlin.TesteDoubleArrayKt" />
-        <item itemvalue="Kotlin.TesteArrayStringKt" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654715677236</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated test list, extract employee to separated file, delete file collection empty and created test set">
+      <created>1654717585521</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654717585521</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +163,8 @@
     <MESSAGE value="created string array of test class" />
     <MESSAGE value="created string Double array of test class" />
     <MESSAGE value="Created collection operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created collection operations" />
+    <MESSAGE value="updated test list, extract employee to separated file, delete file collection empty and created test set" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated test list, extract employee to separated file, delete file collection empty and created test set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
