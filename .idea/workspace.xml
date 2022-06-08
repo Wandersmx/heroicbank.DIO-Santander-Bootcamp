@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb600ec-55a3-4015-9812-2ab3be1883ae" name="Changes" comment="created string array of test class">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/TesteDoubleArray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/TesteOperacoes.kt" afterDir="false" />
+    <list default="true" id="9eb600ec-55a3-4015-9812-2ab3be1883ae" name="Changes" comment="Created collection operations">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/Funcionario.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/TesteList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/TesteSet.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Data Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -41,7 +43,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.TesteOperacoesKt">
+  <component name="RunManager" selected="Kotlin.TesteSetKt">
     <configuration name="TesteArrayStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteArrayStringKt" />
       <module name="consoleApp" />
@@ -56,15 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteIntArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteIntArrayKt" />
-      <module name="consoleApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteIntArrayOfKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteIntArrayOfKt" />
+    <configuration name="TesteListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteListKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,13 +72,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteSetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteSetKt" />
+      <module name="consoleApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TesteSetKt" />
+        <item itemvalue="Kotlin.TesteListKt" />
         <item itemvalue="Kotlin.TesteOperacoesKt" />
         <item itemvalue="Kotlin.TesteDoubleArrayKt" />
         <item itemvalue="Kotlin.TesteArrayStringKt" />
-        <item itemvalue="Kotlin.TesteIntArrayOfKt" />
-        <item itemvalue="Kotlin.TesteIntArrayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654713400359</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created string Double array of test class">
+      <created>1654715633783</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654715633783</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created collection operations">
+      <created>1654715677236</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654715677236</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +157,9 @@
     <MESSAGE value="fix" />
     <MESSAGE value="fix erro de caminho" />
     <MESSAGE value="created string array of test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="created string array of test class" />
+    <MESSAGE value="created string Double array of test class" />
+    <MESSAGE value="Created collection operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created collection operations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
