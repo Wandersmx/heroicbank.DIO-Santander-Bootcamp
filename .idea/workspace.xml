@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb600ec-55a3-4015-9812-2ab3be1883ae" name="Changes" comment="updated test list, extract employee to separated file, delete file collection empty and created test set">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/TesteMap.kt" afterDir="false" />
+    <list default="true" id="9eb600ec-55a3-4015-9812-2ab3be1883ae" name="Changes" comment="created map test class">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/FuncoesEstendidas.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/Repositorio.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/TesteColecoesMutaveis.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/TesteFuncoesEstendidas.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/one/heroicbank/collections/TesteMutableMap.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Data Class" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -40,16 +46,16 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.TesteMapKt">
-    <configuration name="TesteDoubleArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteDoubleArrayKt" />
+  <component name="RunManager" selected="Kotlin.TesteFuncoesEstendidasKt">
+    <configuration name="TesteColecoesMutaveisKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteColecoesMutaveisKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteListKt" />
+    <configuration name="TesteFuncoesEstendidasKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteFuncoesEstendidasKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteOperacoesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteOperacoesKt" />
+    <configuration name="TesteMutableMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteMutableMapKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TesteFuncoesEstendidasKt" />
+        <item itemvalue="Kotlin.TesteMutableMapKt" />
+        <item itemvalue="Kotlin.TesteColecoesMutaveisKt" />
         <item itemvalue="Kotlin.TesteMapKt" />
         <item itemvalue="Kotlin.TesteSetKt" />
-        <item itemvalue="Kotlin.TesteListKt" />
-        <item itemvalue="Kotlin.TesteOperacoesKt" />
-        <item itemvalue="Kotlin.TesteDoubleArrayKt" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654717585521</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created map test class">
+      <created>1654718057273</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1654718057273</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,7 +177,8 @@
     <MESSAGE value="created string Double array of test class" />
     <MESSAGE value="Created collection operations" />
     <MESSAGE value="updated test list, extract employee to separated file, delete file collection empty and created test set" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated test list, extract employee to separated file, delete file collection empty and created test set" />
+    <MESSAGE value="created map test class" />
+    <option name="LAST_COMMIT_MESSAGE" value="created map test class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
