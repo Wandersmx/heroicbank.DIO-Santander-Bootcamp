@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d14bd57f-3bd8-4955-b0c2-37f95a35ec5e" name="Changes" comment="created client and Test client. Password and Login to validate">
-      <change afterPath="$PROJECT_DIR$/collections/api-collection/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/api-collection/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/api-collection/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/api-collection/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections/api-collection/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9eb600ec-55a3-4015-9812-2ab3be1883ae" name="Changes" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,21 +15,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Data Class" />
-        <option value="Kotlin Enum" />
         <option value="Kotlin File" />
-        <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2ADJtZ7IhywcVVvVTaImZvMwh5x" />
+  <component name="ProjectId" id="2AIr2dHFSGr13Ai8UTBgt7cpBIh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,155 +36,40 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/crash/heroicbank/src/main/kotlin/heroicbank/digitalinovation/heroicbank/testes&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\crash\heroicbank\src\main\kotlin\heroicbank\digitalinovation\heroicbank\testes" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Kotlin.TesteClienteKt">
-    <configuration name="TesteClienteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.testes.TesteClienteKt" />
+  <component name="RunManager">
+    <configuration name="TesteIntArrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="one.heroicbank.collections.TesteIntArrayKt" />
       <module name="consoleApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteClienteTipoEnumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.testes.TesteClienteTipoEnumKt" />
-      <module name="consoleApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteFuncionarioAnalistaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.testes.TesteFuncionarioAnalistaKt" />
-      <module name="consoleApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteFuncionarioGerenteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.testes.TesteFuncionarioGerenteKt" />
-      <module name="consoleApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestePessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heroicbank.digitalinovation.heroicbank.testes.TestePessoaKt" />
-      <module name="consoleApp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.TesteClienteKt" />
-        <item itemvalue="Kotlin.TesteFuncionarioGerenteKt" />
-        <item itemvalue="Kotlin.TesteFuncionarioAnalistaKt" />
-        <item itemvalue="Kotlin.TestePessoaKt" />
-        <item itemvalue="Kotlin.TesteClienteTipoEnumKt" />
+        <item itemvalue="Kotlin.TesteIntArrayKt" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d14bd57f-3bd8-4955-b0c2-37f95a35ec5e" name="Changes" comment="" />
-      <created>1654538442197</created>
+      <changelist id="9eb600ec-55a3-4015-9812-2ab3be1883ae" name="Changes" comment="" />
+      <created>1654707739333</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1654538442197</updated>
+      <updated>1654707739333</updated>
     </task>
-    <task id="LOCAL-00001" summary="updated to apply the private modifier to set function of cpf property">
-      <created>1654542745200</created>
+    <task id="LOCAL-00001" summary="fix">
+      <created>1654711147575</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1654542745200</updated>
+      <updated>1654711147575</updated>
     </task>
-    <task id="LOCAL-00002" summary="updated to apply the private modifier to set function of cpf property">
-      <created>1654542797886</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1654542797886</updated>
-    </task>
-    <task id="LOCAL-00003" summary="updated to talk about class members">
-      <created>1654543585748</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1654543585748</updated>
-    </task>
-    <task id="LOCAL-00004" summary="created account class">
-      <created>1654544573376</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1654544573376</updated>
-    </task>
-    <task id="LOCAL-00005" summary="created bank class and test to it">
-      <created>1654545927229</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1654545927229</updated>
-    </task>
-    <task id="LOCAL-00006" summary="created enum client type and test to it">
-      <created>1654547398386</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1654547398386</updated>
-    </task>
-    <task id="LOCAL-00007" summary="update to make person and employee abstract class">
-      <created>1654549603211</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1654549603211</updated>
-    </task>
-    <task id="LOCAL-00008" summary="update bank class">
-      <created>1654549633030</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1654549633030</updated>
-    </task>
-    <task id="LOCAL-00009" summary="created tests and report printer">
-      <created>1654551699141</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1654551699141</updated>
-    </task>
-    <task id="LOCAL-00010" summary="created client and Test client. Password and Login to validate">
-      <created>1654553567075</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1654553567075</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,39 +77,14 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated to apply the private modifier to set function of cpf property" />
-    <MESSAGE value="updated to talk about class members" />
-    <MESSAGE value="created account class" />
-    <MESSAGE value="created bank class and test to it" />
-    <MESSAGE value="created enum client type and test to it" />
-    <MESSAGE value="update to make person and employee abstract class" />
-    <MESSAGE value="update bank class" />
-    <MESSAGE value="created tests and report printer" />
-    <MESSAGE value="created client and Test client. Password and Login to validate" />
-    <option name="LAST_COMMIT_MESSAGE" value="created client and Test client. Password and Login to validate" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
